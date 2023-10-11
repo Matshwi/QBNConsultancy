@@ -83,13 +83,12 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/pimg.png');">
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/baner.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
         <h2>Contact</h2>
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Contact</li>
         </ol>
 
       </div>
@@ -104,7 +103,7 @@
             <div class="info-item  d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-map"></i>
               <h3>Our Address</h3>
-              <p>Street Address, City Zipcode, Gauteng</p>
+              <p>Pretoria North, Gauteng</p>
             </div>
           </div><!-- End Info Item -->
 
@@ -112,7 +111,7 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-envelope"></i>
               <h3>Email Us</h3>
-              <p>contact@qbnconsultancy.co.za</p>
+              <p>info@qbnconsultancy.co.za</p>
             </div>
           </div><!-- End Info Item -->
 
@@ -128,9 +127,9 @@
 
         <div class="row gy-4 mt-1">
 
-          <div class="col-lg-6 ">
+          <!--<div class="col-lg-6 ">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28766.827976206467!2d28.14066883499662!3d-25.676150753930376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebfd91492282947%3A0xea9cfbb634b00f0!2sPretoria%20North%2C%20Pretoria%2C%200116!5e0!3m2!1sen!2sza!4v1695873182085!5m2!1sen!2sza"frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-          </div><!-- End Google Maps -->
+          </div> End Google Maps -->
 
           <div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
@@ -143,7 +142,12 @@
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <select class="form-control" name="subject" id="subject">
+                  <option>Inquiries</option>
+                  <option>Booking a coaching session</option>
+                  <option>Booking a keynote speaker</option>
+                </select>
+                
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
@@ -175,8 +179,8 @@
             <div class="footer-info">
               <h3>QBN Consultancy</h3>
               <p>
-                Street Address <br>
-                City Zipcode, Gauteng<br><br>
+                Pretoria North <br>
+                Gauteng<br><br>
                 <strong>Phone:</strong> 083 767 1188<br>
                 <strong>Email:</strong> info@qbnconsultancy.co.za<br>
               </p>

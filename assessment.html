@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>QBN Consultancy - Services</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/Gold.png" rel="icon"><!--favicon.png-->
+  <link href="assets/img/Gold.png" rel="apple-touch-icon"><!--apple-touch-icon.png-->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./quize/Quizo HTML Template - V.2_files/animate.min.css">
+  <link rel="stylesheet" href="./quize/Quizo HTML Template - V.2_files/style.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+<!-- =======================================================
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://qbnconsultancy.co.za/
+  * Author: Katlego Francis Matshwi
+  ======================================================== -->
+</head>
+
+<style type="text/css">
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modaltext{
+  text-align: center;
+}
+
+
+.nameandsurname{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.namsur{
+  border: 2px solid #C99047;
+  height: 40px;
+  padding: 5px 10px;
+}
+
+#namsur{
+  border: 2px solid #C99047;
+  height: 40px;
+  padding: 10px;
+  width: 40%;
+}
+
+.start-quize{
+  background-color: white;
+  border: 2px solid #C99047;
+  width: 20%;
+  margin: 5% 40%;
+  border-radius: 50px;
+  transition: .5s ease;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  
+  width: 0;
+  height: 100%;
+  
+}
+
+.start-quize:hover {
+  background-color: #C99047;
+}
+  
+</style>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/Gold.png" alt="">
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <!--<li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>-->
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="" class="active">Assessment</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p class="modaltext">Thank You For Your Participation, we will analyse and get back to you with the information you provided</p>
+  </div>
+
+</div>
+
+<div id="myModalquize" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="nameandsurname">
+    <label for="namsur" class="namsur"> Name and Surname</label>
+  <input type="text" id="namsur" name="namsur" class="nameandsur">
+  </div>
+  <div class="nameandsurname">
+    <label for="email" class="namsur"> Email</label>
+  <input type="text" id="namsur" name="email" class="emailofuser">
+  </div>
+
+  <button class="start-quize" id="startQuize">start quize</button>
+  </div>
+
+</div>
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/baner.jpg');">
+      <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+
+        <h2>Assessment</h2>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+        </ol>
+
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+  <div class="wrapper pt-5">
+      <div class="container-fluid">
+         <div class="row text-center">
+            <!-- Circles which indicates the steps of the form: -->
+            <div class="col step_progress d-flex d-none d-sm-block">
+               <span class="step bg-white rounded-pill active"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <form class="multisteps_form position-relative" id="wizard" method="POST" action="https://jthemes.net/themes/html/quizo/thankyou/index-2.html">
+            <!------------------------- Step-1 ----------------------------->
+            <div class="multisteps_form_panel" style="display: block;">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 1/15</span>
+               <h1 class="question_title text-center">I know how to encourage myself.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_1 rounded-pill bg-white text-start animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_1" name="stp_1_select_option" value="A place where people don’t question my authority">
+                        <label for="opt_1">Yes</label>
+                     </li>
+                     <li class="step_1 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_2" name="stp_1_select_option" value="Where ever my best friends are, that’s where i want to be">
+                        <label for="opt_2">No</label>
+                     </li>
+                     
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-2 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 2/15</span>
+               <h1 class="question_title text-center">I always achieve my goals</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_2 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_6" name="stp_2_select_option" value="the south Bassein and Tapti fields in the western offshore">
+                        <label for="opt_6">Yes</label>
+                     </li>
+                     <li class="step_2 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_7" name="stp_2_select_option" value="the gas fields in Tripura and Andhra Pradesh (KG Basin)">
+                        <label for="opt_7">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-3 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 3/15</span>
+               <h1 class="question_title text-center">I do not like to ask help from others</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_3 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_11" name="stp_3_select_option" value="is the natural satellite of earth">
+                        <label for="opt_11">Yes</label>
+                     </li>
+                     <li class="step_3 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_12" name="stp_3_select_option" value="has no liquid water">
+                        <label for="opt_12">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-4 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 4/15</span>
+               <h1 class="question_title text-center">I love attention.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_4 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_16" name="stp_4_select_option" value="rice, jowar, bajra">
+                        <label for="opt_16">Yes</label>
+                     </li>
+                     <li class="step_4 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_17" name="stp_4_select_option" value="ragi, maize">
+                        <label for="opt_17">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-5 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 5/15</span>
+               <h1 class="question_title text-center">I do not like shortcuts</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon&#39;s shadow">
+                        <label for="opt_21">Yes</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-6 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 6/15</span>
+               <h1 class="question_title text-center">I never do anything for selfish gain.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_6 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon&#39;s shadow">
+                        <label for="opt_21">Yes</label>
+                     </li>
+                     <li class="step_6 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-7 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 7/15</span>
+               <h1 class="question_title text-center">I do not make any decision when I am angry.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_7 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon&#39;s shadow">
+                        <label for="opt_21">Yes</label>
+                     </li>
+                     <li class="step_7 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-8 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 8/15</span>
+               <h1 class="question_title text-center">I know my plans for the next 3 years</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_8 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon&#39;s shadow">
+                        <label for="opt_21">Yes</label>
+                     </li>
+                     <li class="step_8 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-9 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 9/15</span>
+               <h1 class="question_title text-center">I fear being alone in a room</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_9 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon&#39;s shadow">
+                        <label for="opt_21">Yes</label>
+                     </li>
+                     <li class="step_9 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-10 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 10/15</span>
+               <h1 class="question_title text-center">I love to spend time with myself.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_10 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon&#39;s shadow">
+                        <label for="opt_21">Yes</label>
+                     </li>
+                     <li class="step_10 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-11 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 11/15</span>
+               <h1 class="question_title text-center">I love the outdoor life.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_11 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon&#39;s shadow">
+                        <label for="opt_21">Yes</label>
+                     </li>
+                     <li class="step_11 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-12 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 12/15</span>
+               <h1 class="question_title text-center">I am brutally honest when I am angry</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_12 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon&#39;s shadow">
+                        <label for="opt_21">Yes</label>
+                     </li>
+                     <li class="step_12 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-13 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 13/15</span>
+               <h1 class="question_title text-center">I easily get bored.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_13 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon&#39;s shadow">
+                        <label for="opt_21">Yes</label>
+                     </li>
+                     <li class="step_13 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-14 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 14/15</span>
+               <h1 class="question_title text-center">I know how to fight ugly</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_14 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon&#39;s shadow">
+                        <label for="opt_21">Yes</label>
+                     </li>
+                     <li class="step_15 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-15 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 15/15</span>
+               <h1 class="question_title text-center">I adapt easily to any situation</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_15 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon&#39;s shadow">
+                        <label for="opt_21">Yes</label>
+                     </li>
+                     <li class="step_15 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">No</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!---------- Form Button ---------->
+            <div class="form_btn text-center ms-5 mt-5">
+               <button type="button" class="f_btn text-uppercase rounded-pill border-0" id="prevBtn" onclick="nextPrev(-1)" style="display: none;">Last Question</button>
+               <button type="button" class="f_btn text-uppercase rounded-pill border-0" id="nextBtn" onclick="nextPrev(1)">Next Question</button>
+            </div>
+         </form>
+      </div>
+   </div>
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>QBN Consultancy</h3>
+              <p>
+                Pretoria North <br>
+                Gauteng<br><br>
+                <strong>Phone:</strong> 083 767 1188<br>
+                <strong>Email:</strong> info@qbnconsultancy.co.za<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>QBN Consultancy</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+          
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader-quize"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="./quize/Quizo HTML Template - V.2_files/jquery-3.6.0.min.js"></script>
+  <script src="./quize/Quizo HTML Template - V.2_files/bootstrap.min.js"></script>
+  <script src="./quize/Quizo HTML Template - V.2_files/jquery.validate.min.js"></script>
+  <script src="./quize/Quizo HTML Template - V.2_files/script.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+var modalQ = document.getElementById("myModalquize");
+var startbtn = document.getElementById("startQuize");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+/*btn.onclick = function() {
+  modal.style.display = "block";
+}
+*/
+
+
+startbtn.onclick = function(event){
+  console.log("start");
+  modalQ.style.display = "none";
+  console.log("complete");
+  var nameandsurname = document.querySelector(".nameandsur").value;
+  var emailofuser = document.querySelector(".emailofuser").value;
+  console.log("complete " + nameandsurname + " and " + emailofuser);
+  window.location.href = `assessment.html?name=${nameandsurname}&email=${emailofuser}`;
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  modalQ.style.display = "none";
+  window.location.href = "index.html";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    window.location.href = "index.html";
+  }else if (event.target == modal) {
+    modal.style.display = "none";
+    window.location.href = "index.html";
+  }
+}
+
+var url = window.location.href;
+var arr = url.split('?');
+if (arr.length > 1 && arr[1] !== '') {
+  console.log('params found');
+}else{
+  console.log('params found');
+  modalQ.style.display = "block";
+}
+</script>
+
+</body>
+
+</html>

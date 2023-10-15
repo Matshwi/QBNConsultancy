@@ -19,6 +19,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /**
+   * Preloader
+   */
+  const quizepreloader = document.querySelector('#preloader-quize');
+  if (quizepreloader) {
+    window.addEventListener('load', () => {
+      quizepreloader.remove();
+    });
+  }
+
+  /**
    * Mobile nav toggle
    */
 

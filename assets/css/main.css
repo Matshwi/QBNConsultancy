@@ -1246,6 +1246,7 @@ section {
 }
 
 .about .about-img {
+  margin-top: 15%;
   min-height: 600px;
   background-size: cover;
   background-position: center;
@@ -2665,4 +2666,8 @@ section {
 
 .footer .footer-legal .credits a {
   color: var(--color-primary);
+}
+
+.team div{
+  margin-left: 7%;
 }

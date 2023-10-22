@@ -108,6 +108,7 @@ section {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -1308,6 +1309,10 @@ section {
   .team .member .member-img {
     margin: 0 60px;
   }
+
+  .team div{
+  margin-left: 7%;
+}
 }
 
 .team .member .member-img img {
@@ -2668,6 +2673,3 @@ section {
   color: var(--color-primary);
 }
 
-.team div{
-  margin-left: 7%;
-}
